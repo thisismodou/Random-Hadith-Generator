@@ -4,16 +4,11 @@
     box-sizing: border-box;
 }
 
-/* bgColor: #2c2c54 */
-/* secColor: #28284D */
-/* terColor: #40407a */
-
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Times New Roman', Tahoma, arial, sans-serif;
     margin: 0 auto;
     background: #2c2c54;
     color: #fff;
-    /* padding: 20px; */
     text-align: center;
 }
 
@@ -22,7 +17,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: #000; */
     min-height: 100vh;
 }
 
@@ -41,7 +35,6 @@ h2, h6 {
     opacity: .5;
     letter-spacing: 2px;
     margin-top: 30px;
-    /* word-spacing: 3px; */
 }
 
 #logo-container {
@@ -49,10 +42,8 @@ h2, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
     line-height: 15px;
-    /* height: 15vh; */
-    /* background: #000; */
 }
 
 #content {
@@ -60,8 +51,7 @@ h2, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 65vh;
-    /* background: green; */
+    min-height: 60vh;
 }
 
 #header {
@@ -75,19 +65,15 @@ h2, h6 {
     align-items: center;
     line-height: 30px;
     padding: 20px;
-    /* background: #40407a; */
-    /* min-height: 20vh; */
     min-width: 80%;
-    /* width: 90%; */
     max-width: 90%;
-    /* margin: 0 auto; */
     border-radius: 10px;
     background: #28284D;
 }
 
 button {
     width: 250px;
-    height: 60px;
+    height: 50px;
     font-size: 1em;
     background: #2c2c54;
     color: #fff;
@@ -95,7 +81,6 @@ button {
     cursor: pointer;
     border: 1px solid #fff;
     border-radius: 10px;
-    /* margin-top: 50px; */
     outline: none;
     transition: all .3s;
 }
@@ -109,10 +94,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-height: 10vh; */
     padding: 10px;
     margin-top: 20px;
-    /* background: #000; */
 }
 
 a {
@@ -140,8 +123,8 @@ img {
         height: auto;
     }
 
-    #logo-container {
-        padding: 20px;
+    #spacebar-text {
+        visibility: hidden;
     }
 }
 
